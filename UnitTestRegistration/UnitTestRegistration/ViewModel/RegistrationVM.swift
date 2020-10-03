@@ -21,4 +21,20 @@ class RegistrationVM{
         }
         return true
     }
+    func isValidEmail(email:String?) -> Bool{
+        guard let email = email, !email.isEmpty, email.isValidEmail() else{return false}
+        return true
+    }
+    func isValidPassword(password:String?) -> Bool{
+        guard let password = password, !password.isEmpty, password.count >= AppConstant.Registration.passwordMinChars, password.isValidPassword() else {return false}
+        return true
+    }
+    func isValidConfirmPassword(password:String?) -> Bool{
+        guard let password = password, !password.isEmpty, password.count >= AppConstant.Registration.passwordMinChars else {return false}
+        return true
+    }
+    func isPasswordMatchWithConfirmPassword(password:String?, confirmPassword:String?) -> Bool{
+        guard let password = password, let confirmPassword = confirmPassword else {return false}
+        return password == confirmPassword
+    }
 }

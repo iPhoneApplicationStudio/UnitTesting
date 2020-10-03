@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90996D12528BBC800D14194 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90996D02528BBC800D14194 /* String+Extension.swift */; };
 		A909A553252855F80031A1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909A552252855F80031A1E3 /* AppDelegate.swift */; };
 		A909A555252855F80031A1E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909A554252855F80031A1E3 /* SceneDelegate.swift */; };
 		A909A557252855F80031A1E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909A556252855F80031A1E3 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A90996D02528BBC800D14194 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		A909A54F252855F80031A1E3 /* UnitTestRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestRegistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A909A552252855F80031A1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A909A554252855F80031A1E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A90996CF2528BB9A00D14194 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A90996D02528BBC800D14194 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		A909A546252855F80031A1E3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 		A909A551252855F80031A1E3 /* UnitTestRegistration */ = {
 			isa = PBXGroup;
 			children = (
+				A90996CF2528BB9A00D14194 /* Extension */,
 				A909A5762528579D0031A1E3 /* ViewModel */,
 				A909A552252855F80031A1E3 /* AppDelegate.swift */,
 				A909A554252855F80031A1E3 /* SceneDelegate.swift */,
@@ -218,6 +229,7 @@
 				A909A57A25285C1F0031A1E3 /* AppConstant.swift in Sources */,
 				A909A578252857B20031A1E3 /* RegistrationVM.swift in Sources */,
 				A909A553252855F80031A1E3 /* AppDelegate.swift in Sources */,
+				A90996D12528BBC800D14194 /* String+Extension.swift in Sources */,
 				A909A555252855F80031A1E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

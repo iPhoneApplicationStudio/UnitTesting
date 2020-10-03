@@ -11,5 +11,6 @@ import Foundation
 struct AppConstant{
     struct Registration {
         static let firstNameMinChars = 2
+        static let passwordMinChars = 8
     }
 }
