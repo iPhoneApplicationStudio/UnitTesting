@@ -8,7 +8,8 @@
 
 import Foundation
 
-class RegistrationVM{
+class RegistrationVM:RegistrationProtocol
+{
     
     func isValidFirstName(name:String?) -> Bool{
         guard let name = name, !name.isEmpty, name.count > AppConstant.Registration.firstNameMinChars else {return false}

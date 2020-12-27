@@ -17,6 +17,7 @@
 		A909A575252856430031A1E3 /* RegistrationVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909A574252856430031A1E3 /* RegistrationVMTests.swift */; };
 		A909A578252857B20031A1E3 /* RegistrationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909A577252857B20031A1E3 /* RegistrationVM.swift */; };
 		A909A57A25285C1F0031A1E3 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A909A57925285C1F0031A1E3 /* AppConstant.swift */; };
+		EB3241B825989E94009D832A /* RegistrationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3241B725989E94009D832A /* RegistrationProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A909A574252856430031A1E3 /* RegistrationVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVMTests.swift; sourceTree = "<group>"; };
 		A909A577252857B20031A1E3 /* RegistrationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVM.swift; sourceTree = "<group>"; };
 		A909A57925285C1F0031A1E3 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		EB3241B725989E94009D832A /* RegistrationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		A909A551252855F80031A1E3 /* UnitTestRegistration */ = {
 			isa = PBXGroup;
 			children = (
+				EB3241B625989E7D009D832A /* Protocol */,
 				A90996CF2528BB9A00D14194 /* Extension */,
 				A909A5762528579D0031A1E3 /* ViewModel */,
 				A909A552252855F80031A1E3 /* AppDelegate.swift */,
@@ -122,6 +125,14 @@
 				A909A577252857B20031A1E3 /* RegistrationVM.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EB3241B625989E7D009D832A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				EB3241B725989E94009D832A /* RegistrationProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 				A909A553252855F80031A1E3 /* AppDelegate.swift in Sources */,
 				A90996D12528BBC800D14194 /* String+Extension.swift in Sources */,
 				A909A555252855F80031A1E3 /* SceneDelegate.swift in Sources */,
+				EB3241B825989E94009D832A /* RegistrationProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
